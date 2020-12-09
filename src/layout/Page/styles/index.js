@@ -16,7 +16,7 @@ export const Container = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(${({ src }) =>
-      src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg.jpg'});
+      src ? `/media/screen/${src}.jpg` : '/media/screen/Start1.jpg'});
     z-index: -1;
   }
 

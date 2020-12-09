@@ -1,11 +1,5 @@
-import { BrowserRouter as Router } from 'react-router-dom';
-import { IsUserRedirect, ProtectedRoutes } from './helpers';
-import { Welcome } from './pages';
+import Routes from './Routes';
 
-const App = () => (
-  <Router>
-    <Welcome />
-  </Router>
-);
+const App = () => <Routes />;
 
 export default App;
